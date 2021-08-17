@@ -23,7 +23,8 @@ This module can be used by adding a block like the following to your root config
 
 ```hcl
 module "azure_speech" {
-  source   = "github.com/parloa/terraform-azurerm-speech-services"
+  source   = "parloa/speech-services/azurerm"
+  version  = "1.0.0"
   location = "westeurope"
 }
 ```
