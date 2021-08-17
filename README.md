@@ -28,7 +28,7 @@ module "azure_speech" {
 }
 ```
 
-For a high availability setup, you may choose to add multiple `module` blocks like this one. Choose different locations for each block to ensure resiliency to Azure location incidents. See [here](./example/multiple-regions) for an example.
+For a high availability setup, you may choose to add multiple `module` blocks like this one. Choose different locations for each block to ensure resiliency to Azure location incidents. See [here](examples/multiple-regions) for an example.
 
 ## Inputs
 
