@@ -79,7 +79,7 @@ This gude assumes you the commands below on your system:
 Move into the directory example/multiple-regions.
 
 ```sh
-cd example/multiple-regions
+cd examples/multiple-regions
 ```
 
 Now we create the application.yaml which will contain the azure speech service subscriptions.  
